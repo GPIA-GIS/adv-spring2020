@@ -1,0 +1,25 @@
+# Site settings
+class:
+  short: Advanced GIS
+  long: Advanced GIS
+  term: Spring 2020
+school:
+  name: GPIA at The New School
+  link: http://www.newschool.edu/public-engagement/ma-ms-international-affairs/
+email:
+description: > # this means to ignore newlines until "baseurl:"
+  DESCRIPTION
+baseurl: /adv-spring2020/
+url: http://gpia-gis.github.io
+twitter_username: TheNewSchool
+github_username:  gpia-gis
+
+# Build settings
+markdown: kramdown
+
+# Collections
+collections:
+  projects:
+    author: name
+    output: true
+    permalink: /projects/:path/
